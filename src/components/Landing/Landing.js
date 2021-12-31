@@ -27,7 +27,7 @@ const Landing = () => {
             <div className='landing_parallax'>
             <Parallax 
                 blur={{min:-15, max: 15}}      
-                bgImage='images/fountaincropped.jpeg'  
+                bgImage={process.env.PUBLIC_URL + '/' + 'images/fountaincropped.jpeg'}  
                 bgImageAlt="Landing Background"                
                 strength={-200}        
             >
@@ -35,7 +35,7 @@ const Landing = () => {
                 
                 <div className="landing_content">
                     <h1 className="name">Alex Lassooij</h1>
-                    <img className="profile_picture" src='images/profile5:7.jpeg' alt='profile'/> 
+                    <img className="profile_picture" src={process.env.PUBLIC_URL + '/images/profile5:7.jpeg'} alt='profile'/> 
                     
                          
                     <div className="social_links">

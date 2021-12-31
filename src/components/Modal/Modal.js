@@ -32,8 +32,8 @@ export const Modal = ({showModal, openModal, title, description, prim_img, sup_i
                             </a>
                         </div>
                         <div className='image_pane'>
-                            <img className='modal_image' src={prim_img} alt='primary_img'></img>
-                            <img className='modal_image' src={sup_img} alt='sup_img'></img>
+                            <img className='modal_image' src={process.env.PUBLIC_URL + '/' + prim_img} alt='primary_img'></img>
+                            <img className='modal_image' src={process.env.PUBLIC_URL + '/' + sup_img} alt='sup_img'></img>
                         </div>
                     </div>
                     <button className='close_button' onClick={() => {
