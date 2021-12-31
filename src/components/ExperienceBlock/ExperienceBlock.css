@@ -14,6 +14,7 @@
     flex-direction: row;
     min-width: 100%;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .experience_image {
@@ -48,6 +49,16 @@
 
 .experience_contribution {
 
+}
+
+@media screen and (max-width: 700px) {
+    .experience_header {
+        justify-content: space-between;
+    }
+    .experience_date {
+        margin-top: 0;
+        margin-left: 20px;
+    }
 }
 
 

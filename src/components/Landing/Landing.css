@@ -3,7 +3,7 @@
 .landing_container {
     width: 100%;
     height: 100vh;
-    min-height: 850px;
+    min-height: 800px;
     margin: auto;
     padding: 0;
     background-color: rgb(33, 33, 33);
@@ -24,7 +24,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    min-height: 850px;
+    min-height: 800px;
     width: 100%;
     background-image: linear-gradient(to bottom, transparent, 40%, rgb(33, 33, 33));
     color: white;
@@ -40,7 +40,7 @@
 .name {
     font-weight: 800;
     font-size: 60px;
-    margin-top: 8vh;
+    margin-top: 4vh;
     margin-bottom: 0;
     /*top: calc((100vh - 500px) / 2 - 160px);*/
     z-index: 1;
@@ -53,7 +53,7 @@
     */
     margin-top: -30px;
     /*top: calc((100vh - 500px) / 2 - 80px);*/
-    height: calc(350px + 20vh);
+    width: calc(450px + 15vw);
     z-index: 0;
 }
 
@@ -63,10 +63,10 @@
     /*
     position: absolute;
     top: calc((100vh - 500px) / 2 + 550px);*/
-    margin-top: 6vh;
+    margin-top: 4vh;
     display: flex;
     justify-content: space-between;
-    width: 640px;
+    width: calc(450px + 15vw);
 }
 
 .social_link_button_container {
@@ -150,6 +150,7 @@
 
 .slide_button_container {
     position: relative;
+    margin-top: -20px;
     width: 65px;
     min-height: 80px;
     height: 15vh;
@@ -200,4 +201,55 @@
 
 .section_link:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .landing_container {
+        min-height: unset;
+    }
+    
+    .landing_content {
+        min-height: unset;
+    }
+
+    .name {
+        margin-top: 15vh;
+        font-size: 40px;
+    }
+
+    .profile_picture {
+        width: calc(250px + 15vw);
+        margin-top: -20px;
+    }
+
+    .social_links {
+        width: calc(250px + 15vw);
+        margin-top: 12vh;
+    }
+
+    .social_link_button_container {
+        min-height: 40px;
+        min-width: 40px;
+    }
+
+    .social_link_button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .fa-btn {
+        min-width: 22px;
+        min-height: 22px;
+    }
+
+    .slide_button_container {
+        margin-top: 20px;
+        width: 45px;
+
+    }
+
+    .slide_button_icon {
+        left: calc((42px - 15px) / 2);
+
+    }
 }

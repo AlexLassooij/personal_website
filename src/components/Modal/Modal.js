@@ -25,7 +25,7 @@ export const Modal = ({showModal, openModal, title, description, prim_img, sup_i
                             <h2 className='modal_title'><b>{title}</b></h2>
                             <p className='modal_description'>{description}</p>
                             
-                            <a href={link} target="_blank">
+                            <a href={link} target="_blank" rel="noreferrer">
                             <button className='git_link_button'>
                             <FontAwesomeIcon className='modal_git_button' icon={faCode} />                        
                             </button>

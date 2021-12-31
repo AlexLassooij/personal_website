@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react'
+import { React, useState } from 'react'
 
 // data import
 import jsonData from '../../files/portfolio_data.json'
