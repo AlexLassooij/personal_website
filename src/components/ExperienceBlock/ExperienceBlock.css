@@ -1,0 +1,53 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 5px 5px #1d1d1d;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.experience_header {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: flex-start;
+}
+
+.experience_image {
+    max-height: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    min-height: 40px;
+}
+
+.experience_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;   
+    margin-left: 10px; 
+}
+
+.experience_title {
+    margin: 0;
+}
+.experience_position {
+    margin: 0
+}
+
+.experience_date {
+    margin-left: auto;
+}
+
+.experience_description {
+
+}
+
+.experience_contribution {
+
+}
+
+

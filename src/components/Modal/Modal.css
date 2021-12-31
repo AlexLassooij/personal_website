@@ -1,0 +1,158 @@
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(33, 33, 33, 0.6);
+    z-index : 0;
+    pointer-events: all;
+}
+
+.modal_container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    min-width: 700px;
+    height: 45vw;
+    min-height: 450px;
+    z-index: 1;
+    pointer-events: all;
+}
+
+.modal_content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image_pane {
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(33, 33, 33);
+    overflow: hidden;
+    height: 60%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modal_image {
+    max-height: 90%;
+    max-width: auto;
+    border-radius: 5px;
+    
+}
+
+.description_pane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: rgb(33, 33, 33);
+    background-color: white;
+    max-height: 40%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.modal_title {
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.modal_description {
+    font-size: 1.1vw;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+.git_link_button {
+    margin-top: 0px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: solid 2px black;
+    border-radius: 7px;
+    min-width: 20px;
+    min-height: 20px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.git_link_button:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+    background-color: rgba(221, 219, 219, 0.815);
+}
+
+
+.modal_git_button {
+    height: 70%;
+    width: auto;
+    z-index: 2;
+    color: rgb(182, 141, 30);
+    padding: 0; 
+    margin: -3px;
+    margin: 0;
+}
+
+.git_link_description {
+    color: black;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.close_button {
+    background-color: transparent;
+    border: none;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.close_window {
+    min-width: 20px;
+    height: auto;
+    color: rgb(33, 33, 33);
+}
+
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+@keyframes fadeOut {
+    0% {
+        opacity:1;
+        visibility: visible;
+    }
+    100% {
+        opacity:0;
+        visibility: hidden;
+    }
+}
