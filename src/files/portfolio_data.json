@@ -38,10 +38,10 @@
         },
         {
             "title": "Amazoon", 
-            "cover": "images/amazon2.png",
+            "cover": "images/amazoon_homepage.png",
             "prim_img": "images/amazon2.png", 
             "description": "An Amazon clone. This clone automatically simulates a warehouse in real-time. For example, when an order is placed through our webpage, robots will physically move around the warehouse, gather the order's items and place them into a truck, all without any human interaction. Synchronization is achieved through mutual exclusion and a database that holds live information about orders and items. Completed as a term project for a Systems Software Engineering course. Written in C# with an ASP.NET MVC webpage, mongoDB database and WinForms as a graphical display for the warehouse", 
-            "sup_img" : "images/amazon2.png"  ,
+            "sup_img" : "images/warehousesism.png"  ,
             "link": "https://github.com/AlexLassooij/Amazoond"          
         },
         {
