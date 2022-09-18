@@ -1,6 +1,9 @@
-.experience_container {
+#experience_container {
     width: 80%;
     min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
 
 .experience_block_container {
@@ -8,4 +11,10 @@
     flex-direction: column;
     align-items: center;
     width: 100%;      
+}
+
+@media screen and (max-width: 800px) {
+    .experience_container {
+        min-width: unset;
+    }
 }

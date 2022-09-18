@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react'
+import { React, useState } from 'react'
 
 // data import
 import jsonData from '../../files/portfolio_data.json'
@@ -30,19 +30,18 @@ export const Projects = () => {
         )
     })
 
-    
 
     return (
-        <>
+        <div id='projects'>
         <div className={ModalActive ? 'project_container' : 'project_container active'}>
             <div className='project_content'>
-                <h2 style={{color: "rgb(33,33,33)"}}>Projects</h2>
+                <h1 style={{color: "rgb(33,33,33)"}}>Projects</h1>
                 <div className='project-gallery'>
                     {ProjectComponents}
                 </div>            
             </div>      
         </div>
          <i className='line_separator_horizontal '></i>      
-        </>
+        </div>
     )
 }

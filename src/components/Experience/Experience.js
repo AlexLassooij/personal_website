@@ -9,11 +9,7 @@ import './Experience.css'
 
 
 export const Experience = () => {
-
-    
     const experienceData = jsonData['experience'];
-    console.log(experienceData);
-
     const experienceBlocks = experienceData.map((experience) => {
         return(
             <ExperienceBlock
@@ -27,17 +23,12 @@ export const Experience = () => {
         );
         
     })
-
-    console.log(experienceBlocks);
     
-
     return (
         
-        <div className='experience_container'>
-            <h2>Experience</h2>
-            <div className='experience_block_container'>
+        <div id='experience_container'>
+            <h1>Experience</h1>
                 {experienceBlocks} 
-            </div>    
             <i className='line_separator_horizontal'></i>            
         </div>
     )

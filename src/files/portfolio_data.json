@@ -1,4 +1,42 @@
 {
+    "introduction" : "I’m an engineering undergraduate student keen on growing my skillset to provide a helping hand to projects that benefit our day to day lives",
+    "bio_main" : "Hey 👋    My name is Alex Lassooij, I'm an Electrical Engineering student at UBC. Since being introduced to programming as a freshman, I’ve expanded my knowledge and skillset through university courses, bootcamps, hackathons and various personal projects. Throughout my short yet continuing journey, I’ve been driven my passion of using software to provide creative, efficient solutions that may benefit the lives of many others.",
+    "bio_experience" : "As of today, I’ve been involved with multiple student engineering teams and am interning as a Software Engineer at medical device company Kardium Inc. Some of the technologies I’ve worked with include : ",
+    "technologies" : [
+        {
+            "name" : "Java",
+            "icon" : "java"
+        },
+        {
+            "name" : "Python",
+            "icon" : "python"
+        },
+        {
+            "name" : ".NET",
+            "icon" : "netcore"
+        },
+        {
+            "name" : "C#",
+            "icon" : "csharp"
+        },
+        {
+            "name" : "MongoDB",
+            "icon" : "mongodb"
+        },
+        {
+            "name" : "React / React Native",
+            "icon" : "react"
+        },
+        {
+            "name" : "Firebase",
+            "icon" : "firebase"
+        },
+        {
+            "name" : "JS (ES6) + HTML5 + CSS3",
+            "icon" : "webdev",
+            "resize" : "yes"
+        }
+    ],
     "experience" : [
         {
             "title": "UBC Launch Pad", 
@@ -38,11 +76,11 @@
         },
         {
             "title": "Amazoon", 
-            "cover": "images/amazon2.png",
+            "cover": "images/amazoon_homepage.png",
             "prim_img": "images/amazon2.png", 
-            "description": "An Amazon clone. This clone automatically simulates a warehouse in real-time. For example, when an order is placed through our webpage, robots will physically move around the warehouse, gather the order's items and place them into a truck, all without any human interaction. Synchronization is achieved through mutual exclusion and a database that holds live information about orders and items. Completed as a term project for a Systems Software Engineering course. Written in C# with ASP.NET MVC webpage and WinForms as a graphical display for the warehouse", 
-            "sup_img" : "images/amazon2.png"  ,
-            "link": "https://github.com/AlexLassooij/Amazoond"          
+            "description": "An Amazon clone. This clone automatically simulates a warehouse in real-time. For example, when an order is placed through our webpage, robots will physically move around the warehouse, gather the order's items and place them into a truck, all without any human interaction. Synchronization is achieved through mutual exclusion and a database that holds live information about orders and items. Completed as a term project for a Systems Software Engineering course. Written in C# with an ASP.NET MVC webpage, mongoDB database and WinForms as a graphical display for the warehouse", 
+            "sup_img" : "images/warehousesism.png"  ,
+            "link": "https://github.com/AlexLassooij/Amazoon"          
         },
         {
             "title": "Feed Me", 
