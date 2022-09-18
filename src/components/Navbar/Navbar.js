@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { Link, animateScroll } from 'react-scroll'
 import { useScrollPosition } from '../../hooks/useScrollPosition'
 
-
 import './Navbar.css'
 
 function Navbar() {
@@ -13,11 +12,10 @@ function Navbar() {
     return (
     <div
         onMouseEnter={() => {
-            console.log('is shown')
             setIsShown(true)}}
         onMouseLeave={() => setIsShown(false)}
-        className={scrollPosition > 800 && !isShown ? 'navbar-container contracted' : 'navbar-container'}>
-        <div className={scrollPosition > 800 && !isShown ? 'navbar-content hide-navbar-content' : 'navbar-content'}>
+        className={scrollPosition > 700 && !isShown ? 'navbar-container contracted' : 'navbar-container'}>
+        <div className={scrollPosition > 700 && !isShown ? 'navbar-content hide-navbar-content' : 'navbar-content'}>
             <div>
                 <p className='navbar-item' onClick={() => {
                 animateScroll.scrollToTop()

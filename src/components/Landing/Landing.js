@@ -24,6 +24,7 @@ import './Landing.css';
 
 const Landing = () => {
     const introduction = jsonData["introduction"]
+    const isChrome = navigator.userAgent.indexOf("Chrome") !== -1;
     return(
         <div className='landing-container'>
             <div className='landing-parallax'>
@@ -59,7 +60,7 @@ const Landing = () => {
                                 <FontAwesomeIcon className='fa-btn file' icon={faFile} />                        
                                 </button>
                                 </a>
-                                <p className='social-link-description'>Resume</p>
+                                <p className={isChrome ? 'social-link-description chrome' : 'social-link-description'}>Resume</p>
                             
                             </div>
                                                 
@@ -69,7 +70,7 @@ const Landing = () => {
                                 <FontAwesomeIcon className='fa-btn git' icon={faGithubSquare} />                        
                                 </button>
                                 </a>
-                                <p className='social-link-description'>GitHub</p>
+                                <p className={isChrome ? 'social-link-description chrome' : 'social-link-description'}>GitHub</p>
                             </div>
                             
                             <div className='social-link-button-container'>
@@ -78,7 +79,7 @@ const Landing = () => {
                                 <FontAwesomeIcon className='fa-btn in' icon={faLinkedin} />                        
                                 </button>
                                 </a>
-                                <p className='social-link-description'>LinkedIn</p>
+                                <p className={isChrome ? 'social-link-description chrome' : 'social-link-description'}>LinkedIn</p>
                             </div>
 
                             <div className='social-link-button-container'>
@@ -87,7 +88,7 @@ const Landing = () => {
                                 <FontAwesomeIcon className='fa-btn mail' icon={faEnvelopeSquare} />                        
                                 </button>
                                 </a>
-                                <p className='social-link-description'>Contact</p>
+                                <p className={isChrome ? 'social-link-description chrome' : 'social-link-description'}>Contact</p>
                             </div>
                         </div>
                     </div>

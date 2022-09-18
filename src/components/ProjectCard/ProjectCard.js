@@ -4,18 +4,11 @@ import { Modal } from '../Modal/Modal';
 import './ProjectCard.css'
 
 export const ProjectCard = ({title, cover, prim_img, description, sup_img, link, togglePointerEvents}) => {
-
     const [showModal, setShowModal] = useState(false);
-
-    
     const openModal = () => {
         setShowModal(!showModal)
         togglePointerEvents();
-        console.log("modal toggled")
     }
-
-    
-
     return (
         <div className='project_card_container'>
             <div className='project_card'>

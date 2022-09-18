@@ -9,11 +9,7 @@ import './Experience.css'
 
 
 export const Experience = () => {
-
-    
     const experienceData = jsonData['experience'];
-    console.log(experienceData);
-
     const experienceBlocks = experienceData.map((experience) => {
         return(
             <ExperienceBlock
@@ -27,10 +23,7 @@ export const Experience = () => {
         );
         
     })
-
-    console.log(experienceBlocks);
     
-
     return (
         
         <div id='experience_container'>
