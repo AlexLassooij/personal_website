@@ -33,11 +33,9 @@ export const Experience = () => {
 
     return (
         
-        <div className='experience_container'>
-            <h2>Experience</h2>
-            <div className='experience_block_container'>
+        <div id='experience_container'>
+            <h1>Experience</h1>
                 {experienceBlocks} 
-            </div>    
             <i className='line_separator_horizontal'></i>            
         </div>
     )

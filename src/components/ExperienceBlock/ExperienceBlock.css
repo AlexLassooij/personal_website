@@ -3,20 +3,19 @@
     flex-direction: column;
     width: 100%;
     margin-top: 40px;
-    box-shadow: 0px 0px 5px 5px #1d1d1d;
-    border-radius: 5px;
-    padding: 20px;
-
 }
 
 .experience_header {
     display: flex;
     flex-direction: row;
-    min-width: 100%;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
+.experience-left-block {
+    display: flex;
+    flex-direction: row;
+}
 .experience_image {
     max-height: 40px;
     min-height: 40px;
@@ -40,15 +39,15 @@
 }
 
 .experience_date {
-    margin-left: auto;
+    margin-left: calc;
 }
 
 .experience_description {
-
+    padding-top: 0;
 }
 
 .experience_contribution {
-
+    padding-top: 0;
 }
 
 @media screen and (max-width: 700px) {
