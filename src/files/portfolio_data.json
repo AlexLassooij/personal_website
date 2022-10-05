@@ -43,7 +43,7 @@
             "position" : "Medical Device Software Co-op",
             "date": "May 2022 - Present", 
             "description": "Kardium Inc. is a medical device company based in Burnaby, BC that has developed the Globe Pulsed Field System, an advanced technology to treat atrial fibrillation.",
-            "contribution": "Since starting at Kardium in May, my work has focused on improving a tool that enables Analytics and Testing teams to analyze medical procedure logs. This has involved writing thorough specifications, requirements and tests to implement updates to components, as well as consulting users of the tool to handle feedback and additional user stories", 
+            "contribution": "Since starting at Kardium in May, my work has focused on improving a tool that enables Analytics and Testing teams to analyze medical procedure logs. This has involved writing thorough specifications, requirements and tests to implement updates to components, as well as consulting users of the tool to handle feedback and additional user stories.", 
             "icon" : "images/kardium_logo.png"            
         },
         {
