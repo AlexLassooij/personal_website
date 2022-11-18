@@ -1,4 +1,4 @@
-import './App.css';
+import './AppStyles.scss';
 import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing';
 import Bio from './components/Bio/Bio';

@@ -51,7 +51,7 @@
             "position" : "Developer",
             "date": "September 2021 - Present", 
             "description": "UBC Launch Pad is a student-run software engineering design team. Students work together in groups consisting of developers, designers and leads to build applications that provide novel solutions to common challenges we may face.",
-            "contribution": "I helped my team develop a mobile group task management. It features progress tracking, task quotas and a points system. The app was built with Flutter and hosted on Firebase and uses Firestore as a database.", 
+            "contribution": "I helped my team develop a mobile group task management app. It features progress tracking, task quotas and a points system. The app was built with Flutter and hosted on Firebase and uses Firestore as a database.", 
             "icon" : "images/LP_Icon.png"            
         },
         {

@@ -1,3 +1,5 @@
+@use '../../AppStyles';
+
 .navbar-container {
     display: flex;
     font-size: 1.2em;
@@ -44,6 +46,7 @@
 }
 
 .navbar-item {
+    @include AppStyles.body-paragraph;
     background-color: transparent;
     padding: 5px;
     display: inline-block;

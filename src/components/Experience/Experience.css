@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .experience_container {
+    #experience_container {
         min-width: unset;
     }
 }

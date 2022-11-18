@@ -1,3 +1,5 @@
+@use '../../AppStyles';
+
 #bio-container{
     display: flex;
     flex-direction: column;
@@ -19,7 +21,7 @@
 .bio-picture {
     float: right;
     margin: -40px 30px 0 10px;
-    border: solid 2px rgba(182, 141, 30, 1.0);
+    border: solid 2px AppStyles.$gold-color;
     border-radius: 50%;
     height: auto; 
     width: auto; 
@@ -34,7 +36,7 @@
     flex-direction: row;
     width: 60%;
     padding: 0 0 30px 30px;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .technology-item {
@@ -45,15 +47,16 @@
 }
 
 .technology-icon {
-    width: 40px;
-    height: 40px;
+    width: AppStyles.$reg-icon-size;
+    height: AppStyles.$reg-icon-size;
     margin-right: 10px;
 }
 
 .resized {
-    width: 90px;
+    width: 110px;
     height: 40px;
 }
+
 .technology-name {
     padding: 0;
     font-weight: 800;
@@ -64,5 +67,19 @@
         width: 90%;
         line-height: 25px;
         padding: 20px;
+    }
+
+    .technology-icon {
+        width: AppStyles.$small-icon-size;
+        height: AppStyles.$small-icon-size;
+    }
+
+    .resized {
+        width: 85px;
+        height: 30px;
+    }
+
+    .technologies {
+        width: 100%;
     }
 }

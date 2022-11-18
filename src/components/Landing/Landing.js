@@ -16,7 +16,7 @@ import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons"
 
 
 //Style imports
-import './Landing.css';
+import './Landing.scss';
 
 // Image imports
 // import landing-background from '../../images/ubc.JPG'
