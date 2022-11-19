@@ -1,7 +1,7 @@
 // Library imports
 
 //Style imports
-import './Bio.css';
+import './Bio.scss';
 import jsonData from '../../files/portfolio_data.json'
 
 

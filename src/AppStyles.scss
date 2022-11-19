@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open%20Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto%20Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Lekton');
+
+$gold-color: rgba(182, 141, 30, 1.0);
+$charcoal-color: rgba(33, 33, 33, 1.0);
+$small-modal-paragraph-size: 0.65rem;
+$small-body-paragraph-size: 13px;
+$small-body-paragraph-line-height: 1.4em;
+$small-body-header-size: 14px;
+$small-icon-size: 30px;
+$small-main-header-size: 22.5px;
+$small-mid-header-size: 20px;
+$small-huge-header-size: 40px;
+
+
+$reg-huge-header-size: 50px;
+$reg-mid-header-size: 25px;
+$reg-icon-size: 40px;
+$reg-main-header-size: 30px;
+$reg-body-header-size: 18px;
+$reg-body-paragraph-size: 15px;
+$reg-body-paragraph-line-height: 1.6em;
+
+$small-screen-size: 800px;
+
+@mixin body-paragraph($fontSize: $reg-body-paragraph-size, $lineHeight: $reg-body-paragraph-line-height) {
+  font-size: $fontSize;
+  font-family: 'Open Sans';
+  line-height: $lineHeight;
+}
+
+@mixin body-header($fontSize: $reg-body-header-size) {
+  font-size: $fontSize;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+@mixin main-header($fontSize: $reg-main-header-size) {
+  font-size: $fontSize;
+  font-family: 'Rubik';
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat';
+  color: white;
+}
+
+body {
+  font-size : $reg-body-paragraph-size;
+}
+
+h1 {
+  @include main-header
+}
+
+h3 {
+  @include body-header
+}
+
+p {
+  @include body-paragraph;
+}
+
+.text-pad {
+  box-shadow: 0px 0px 6px 6px rgb(30, 30, 30);
+  border-radius: 10px;
+
+}
+
+.text-pad-paragraph {
+  padding: 20px 35px;
+}
+
+.line_separator_horizontal {
+  display: inline-block;
+  width: 100%;
+  border-bottom: white solid 0.5px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.line_separator_horizontal.black {
+  border-bottom: black;
+}
+
+@media screen and (max-width: $small-screen-size) {
+  h3 {
+    @include body-header($small-body-header-size)
+  }
+
+  p {
+    @include body-paragraph($small-body-paragraph-size, $small-body-paragraph-line-height);
+  }
+
+  h1 {
+    @include main-header($small-main-header-size)
+  }
+
+
+}
+
+

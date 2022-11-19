@@ -38,18 +38,26 @@
         }
     ],
     "experience" : [
+         {
+            "title": "Kardium Inc.", 
+            "position" : "Medical Device Software Co-op",
+            "date": "May 2022 - Present", 
+            "description": "Kardium Inc. is a medical device company based in Burnaby, BC that has developed the Globe Pulsed Field System, an advanced technology to treat atrial fibrillation.",
+            "contribution": "Since starting at Kardium in May, my work has focused on improving a tool that enables Analytics and Testing teams to analyze medical procedure logs. This has involved writing thorough specifications, requirements and tests to implement updates to components, as well as consulting users of the tool to handle feedback and additional user stories.", 
+            "icon" : "images/kardium_logo.png"            
+        },
         {
             "title": "UBC Launch Pad", 
             "position" : "Developer",
             "date": "September 2021 - Present", 
             "description": "UBC Launch Pad is a student-run software engineering design team. Students work together in groups consisting of developers, designers and leads to build applications that provide novel solutions to common challenges we may face.",
-            "contribution": "I helped my team develop a mobile group task management. It features progress tracking, task quotas and a points system. The app was built with Flutter and hosted on Firebase and uses Firestore as a database.", 
+            "contribution": "I helped my team develop a mobile group task management app. It features progress tracking, task quotas and a points system. The app was built with Flutter and hosted on Firebase and uses Firestore as a database.", 
             "icon" : "images/LP_Icon.png"            
         },
         {
             "title": "Building Blocks", 
             "position" : "Web Developer",
-            "date": "May 2021 - September 2021", 
+            "date": "May 2021 - December 2021", 
             "description": "Building Blocks Peer Mentoring is a student initiative that aims towards improving student life on campus. Using an algorithm, freshmen will be matched with an upper-year mentor. Through their mentors, incoming students will have the social, academic and professional support they need to thrive on campus.", 
             "contribution": "Starting with no experience with web development, I quickly became familiar with frontend fundamentals. As a result, I was able to create multiple reponsive web pages for our MERN app. Once I learned some backend development basics, I helped implement chat functions using socket.io ", 
             "icon" : "images/BB_logo.png", 
@@ -101,10 +109,18 @@
            
         },
         {
+            "title": "ECE Projects Year 3", 
+            "cover": "images/ECE.jpeg",
+            "prim_img": "images/Simulink.png", 
+            "description": "For my 3rd year Electrical Design Studio, I worked in a team of three to design and simulate a 3 DOF robot arm. This involved the use many different tools such as Matlab, Simulink, SimulationX, Solidworks, Multisim and Altium. Work was divided intro three main areas : Software, Hardware and Mechanical Design. I was responsible for the Software portion, including the design of a closed loop system with PID tuning, path planning, and code for PID control, handling ISRs and driving pins.",
+            "sup_img" : "images/PCB.png",
+            "link": "https://drive.google.com/drive/folders/1DsbG5_gZ3f8xIL2VtV-EmFAU5rYNkQH4?usp=sharing"            
+        },
+        {
             "title": "ECE Projects Year 2", 
             "cover": "images/ECE.jpeg",
             "prim_img": "images/291P2.jpeg", 
-            "description": "For my 2nd year Electrical Engineering project course, I completed two projects. The first (pictured left) is a metal detector. It is capable of detecting ferrous and non-ferrous metals. Metallic objects placed inside an induction coil are detected as they change the oscillation frequency of the device's A-stable oscillator. The second project (pictured right) is a water level detector. It measures the water level in a cup using the fact that the cup's capacitance varies with different water levels",
+            "description": "For my 2nd year Electrical Design Studio, I completed two projects. The first (pictured left) is a metal detector. It is capable of detecting ferrous and non-ferrous metals. Metallic objects placed inside an induction coil are detected as they change the oscillation frequency of the device's A-stable oscillator. The second project (pictured right) is a water level detector. It measures the water level in a cup using the fact that the cup's capacitance varies with different water levels",
             "sup_img" : "images/291P1.jpeg",
             "link": "https://github.com/AlexLassooij/ELEC291_Project_2"            
         }
