@@ -1,7 +1,7 @@
 import React from 'react'
 
 // sylesheets 
-import './ExperienceBlock.css'
+import './ExperienceBlock.scss'
 
 export const ExperienceBlock = ({title, position, date, description, contribution, icon}) => {
     return (

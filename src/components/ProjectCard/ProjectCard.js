@@ -1,7 +1,7 @@
 import { React, useState } from 'react'
 import { Modal } from '../Modal/Modal';
 
-import './ProjectCard.css'
+import './ProjectCard.scss'
 
 export const ProjectCard = ({title, cover, prim_img, description, sup_img, link, togglePointerEvents}) => {
     const [showModal, setShowModal] = useState(false);

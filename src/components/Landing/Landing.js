@@ -26,7 +26,7 @@ const Landing = () => {
     const introduction = jsonData["introduction"]
     const isChrome = navigator.userAgent.indexOf("Chrome") !== -1;
     return(
-        <div className='landing-container'>
+        <div id='landing-container'>
             <div className='landing-parallax'>
             <Parallax 
                 blur={{min:-15, max: 15}}      
@@ -45,17 +45,16 @@ const Landing = () => {
                             <p className='intro'>
                                 {introduction}
                             </p>
-                            <Link to="bio-container" smooth={true} duration={1000} className="section-link">
-                                <div className='slide-button-container'>
-                                    <i className='slide-button-icon'></i>
-                                    <i className='slide-button-icon animated'></i>
-
-                                </div>  
+                                <Link to="bio-container" smooth={true} duration={1000} className="section-link">
+                                    <div className='slide-button-container'>
+                                        <i className='slide-button-icon'></i>
+                                        <i className='slide-button-icon animated'></i>
+                                    </div>  
                                 </Link>
                         </div>  
                         <div className="social-links">
                             <div className='social-link-button-container'>
-                                <a href="https://drive.google.com/file/d/1PINQpmtHlz3GT_SLv8Oj4NrFNN-XTK4n/view?usp=sharing" target="_blank" rel="noreferrer">
+                                <a href="https://drive.google.com/file/d/1jaXp1VxsnJ0USc9EOzowWch8gsy_9J7R/view?usp=share_link" target="_blank" rel="noreferrer">
                                 <button className='social-link-button file'>
                                 <FontAwesomeIcon className='fa-btn file' icon={faFile} />                        
                                 </button>

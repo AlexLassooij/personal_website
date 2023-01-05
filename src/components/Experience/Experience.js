@@ -4,7 +4,7 @@ import jsonData from '../../files/portfolio_data.json'
 import { ExperienceBlock } from '../ExperienceBlock/ExperienceBlock';
 
 // stylesheets
-import './Experience.css'
+import './Experience.scss'
 
 
 

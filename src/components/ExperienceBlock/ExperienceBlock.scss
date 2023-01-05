@@ -1,0 +1,65 @@
+@use '../../AppStyles';
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.experience_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.experience-left-block {
+    display: flex;
+    flex-direction: row;
+}
+.experience_icon {
+    max-height: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    min-height: 40px;
+}
+
+.experience_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;   
+    margin-left: 10px; 
+}
+
+.experience_title {
+    margin: 0;
+}
+.experience_position {
+    margin: 0
+}
+
+.experience_date {
+    margin-left: calc;
+}
+
+.experience_description {
+    padding-top: 0;
+}
+
+.experience_contribution {
+    padding-top: 0;
+}
+
+@media screen and (max-width: AppStyles.$small-screen-size) {
+    .experience_header {
+        justify-content: space-between;
+    }
+    .experience_date {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
+
+

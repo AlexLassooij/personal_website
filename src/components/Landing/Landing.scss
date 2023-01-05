@@ -1,6 +1,6 @@
 @use '../../AppStyles';
 
-.landing-container {
+#landing-container {
     z-index: 1;
     position: relative;
     top: -70px;
@@ -157,7 +157,7 @@
 
 .social-link-description {
     position: absolute;
-    margin-left : 75px
+    margin-left : 150px
 }
 
 .social-link-description.chrome {
@@ -247,7 +247,7 @@
 }
 
 @media screen and (max-width: AppStyles.$small-screen-size) {
-    .landing-container {
+    #landing-container {
         min-height: unset;
     }
     

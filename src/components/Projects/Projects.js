@@ -5,7 +5,7 @@ import jsonData from '../../files/portfolio_data.json'
 import { ProjectCard } from '../ProjectCard/ProjectCard';
 
 // stylesheets
-import './Projects.css'
+import './Projects.scss'
 
 export const Projects = () => {
 
@@ -41,7 +41,6 @@ export const Projects = () => {
                 </div>            
             </div>      
         </div>
-         <i className='line_separator_horizontal '></i>      
         </div>
     )
 }

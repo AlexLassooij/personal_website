@@ -4,7 +4,7 @@ import {faWindowClose} from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {React, useRef} from 'react'
 
-import './Modal.css'
+import './Modal.scss'
 
 export const Modal = ({showModal, openModal, title, description, prim_img, sup_img, link, togglePointerEvents}) => {
         

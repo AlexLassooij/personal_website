@@ -83,6 +83,14 @@
             "link": "https://github.com/AlexLassooij/CrossyRoad"                     
         },
         {
+            "title": "SociaLion", 
+            "cover": "images/socialion1.png",
+            "prim_img": "images/socialion1.png", 
+            "description": "Ideation of a social-skill training mobile app presented at BizHacks, winning 3rd place and an $800 prize. The app's goal is to help people break through their social anxiety through guided interactions. Following a self assessment to gauge their behaviour in social settings, users participate in guided interactions with virtual or real users in a VR environment", 
+            "sup_img" : "images/socialion2.png" ,
+            "link": "https://docs.google.com/presentation/d/1tp73Kk18EVxdTCAXriMHOy8EA0ngnH-hv9Xqr3iEsVI/edit?usp=share_link"                     
+        },
+        {
             "title": "Amazoon", 
             "cover": "images/amazoon_homepage.png",
             "prim_img": "images/amazon2.png", 

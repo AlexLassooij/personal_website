@@ -1,0 +1,27 @@
+@use '../../AppStyles.scss';
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.built-message {
+    font-family: 'Lekton';
+    color: AppStyles.$gold-color
+}
+
+.footer-scroll {
+    font-family: 'Lekton';
+    cursor: pointer;
+    margin-bottom: 60px;
+    color: rgb(180, 180, 180);
+    animation: all ease-in-out 400ms;
+
+}
+
+.footer-scroll:hover {
+    color: white;
+}
