@@ -120,7 +120,7 @@
             "prim_img": "images/portfolio1.png", 
             "description": "My portfolio, a simple web page designed to showcase some of my experiences, projects and a bit about myself. It is created with React and minimal other frameworks (i.e. no Bootstrap) to maximize my understanding of HTML and SCSS used in React components created by myself", 
             "sup_img" : "images/portfolio2.png",
-            "link": "https://github.com/AlexLassooij/SlackApp"          
+            "link": "https://github.com/AlexLassooij/personal_website"          
         },
         {
             "title": "RISC Machine", 
