@@ -5,7 +5,7 @@
     position: relative;
     top: -70px;
     width: 100%;
-    min-height: 750px;
+    min-height: max(750px, 100vh);
     margin: auto;
     padding: 0;
     background-color: #362419;
@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 750px;
+    min-height: max(750px, 100vh);
     padding-top: 70px;
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(33, 33, 33, 0.8), 10%, rgb(33, 33, 33));

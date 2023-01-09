@@ -75,12 +75,20 @@
     ],
     "projects" : [
         {
+            "title": "dealbreaker", 
+            "cover": "images/dealbreaker1.png",
+            "prim_img": "images/dealbreaker1.png", 
+            "description": "An iOS app built by myself using React Native. The app allows users to search for items listed on Amazon in-app, and add a given item to a so-called ‘Watch list’. Using background processing, the app would check the prices of items on the users watch list at regular time intervals. If it finds that the price of an item is lower than at the time it was added to the list, the user will be notified with a push notification.", 
+            "sup_img" : "images/dealbreaker2.png" ,
+            "link": "https://github.com/AlexLassooij/dealbreaker#readme"                     
+        },
+        {
             "title": "CrossyRoad", 
             "cover": "images/crossy1.png",
             "prim_img": "images/crossy1.png", 
             "description": "A remake of the popular mobile game CrossyRoad purely written in Java. The game allows the player to navigate around the board with keyboard input and animates moving cars smoothly. This project required me to make many considerations concerning the design of the game and how each game component would interact with one another. As a result, I have a firm understanding of OOP", 
             "sup_img" : "images/crossy2.png" ,
-            "link": "https://github.com/AlexLassooij/CrossyRoad"                     
+            "link": "https://github.com/AlexLassooij/CrossyRoad#readme"                     
         },
         {
             "title": "SociaLion", 
@@ -96,7 +104,7 @@
             "prim_img": "images/amazon2.png", 
             "description": "An Amazon clone. This clone automatically simulates a warehouse in real-time. For example, when an order is placed through our webpage, robots will physically move around the warehouse, gather the order's items and place them into a truck, all without any human interaction. Synchronization is achieved through mutual exclusion and a database that holds live information about orders and items. Completed as a term project for a Systems Software Engineering course. Written in C# with an ASP.NET MVC webpage, mongoDB database and WinForms as a graphical display for the warehouse", 
             "sup_img" : "images/warehousesism.png"  ,
-            "link": "https://github.com/AlexLassooij/Amazoon"          
+            "link": "https://github.com/AlexLassooij/Amazoon#readme"          
         },
         {
             "title": "Feed Me", 
@@ -105,7 +113,6 @@
             "description": "A Slack bot for the Slack workspace. I created this bot to help people choose their next meal when work or other responsibilities leave little time to ponder about food. Users can choose to eat either eat nearby, or have a recipe suggested based on what's in their pantry. Created with Python and Slack Block Kit", 
             "sup_img" : "images/slack2.png",
             "link": "https://github.com/AlexLassooij/SlackApp"          
-            
         },
         {
             "title": "RISC Machine", 

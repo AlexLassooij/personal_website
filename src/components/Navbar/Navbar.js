@@ -1,7 +1,10 @@
-import React from 'react'
-import { useState } from 'react'
-import { Link, animateScroll } from 'react-scroll'
-import { useScrollPosition } from '../../hooks/useScrollPosition'
+import React from 'react';
+import { useState } from 'react';
+import { Link, animateScroll } from 'react-scroll';
+import { useScrollPosition } from '../../hooks/useScrollPosition';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 
 import './Navbar.scss'
 
@@ -19,7 +22,10 @@ function Navbar() {
         }}
         onMouseLeave={() => setIsShown(false)}
         className={scrollPosition > 700 && !isShown ? 'navbar-container contracted' : 'navbar-container'}>
-        <div className={scrollPosition > 700 && !isShown ? 'navbar-content hide-navbar-content' : 'navbar-content'}>
+        {scrollPosition > 700 && !isShown ?  
+        <FontAwesomeIcon className='navbar-bars' icon={faBars} color={'rgba(33, 33, 33, 1.0)'}/>                          
+        :
+        <div className='navbar-content'>
             <div>
                 <p className='navbar-item' onClick={() => {
                 animateScroll.scrollToTop()
@@ -28,7 +34,7 @@ function Navbar() {
                 </p>
             </div>
             <div className='navbar-item-container'>
-                <Link to='bio_container' smooth={true} duration={1000} className='navbar-item'>
+                <Link to='bio-container' smooth={true} duration={1000} className='navbar-item'>
                     About
                 </Link>
             </div>
@@ -43,6 +49,8 @@ function Navbar() {
                 </Link>
             </div>
         </div>
+        }
+        
     </div>
     )
 }
