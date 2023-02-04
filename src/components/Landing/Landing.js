@@ -54,7 +54,7 @@ const Landing = () => {
                         </div>  
                         <div className="social-links">
                             <div className='social-link-button-container'>
-                                <a href="https://drive.google.com/file/d/1jaXp1VxsnJ0USc9EOzowWch8gsy_9J7R/view?usp=share_link" target="_blank" rel="noreferrer">
+                                <a href="https://drive.google.com/file/d/1jRZ34gKWAtI_35b6xlqPHu-sybbTr42f/view?usp=sharing" target="_blank" rel="noreferrer">
                                 <button className='social-link-button file'>
                                 <FontAwesomeIcon className='fa-btn file' icon={faFile} />                        
                                 </button>
