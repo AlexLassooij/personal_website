@@ -15,7 +15,7 @@
     max-height: 100%;
     position: relative;
     z-index: 0;
-
+    border-radius: 5px;
 }
 
 
@@ -54,17 +54,22 @@
     background-size: 200% 100%;
     background-position: right bottom;
     z-index: 1;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
 }
 
 .background:hover {
     cursor: pointer;
     background-position: left bottom;
-    transition: 0.5s ease-in-out;
+}
+
+.background {
+    animation: fadeOut ease 0.3s;
 }
 
 .project_card > h2 {
     font-size: 30px;
-    animation: fadeOut ease 1s;
+    animation: fadeOut ease 0.3s;
     visibility: hidden;
 }
 

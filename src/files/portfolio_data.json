@@ -1,7 +1,7 @@
 {
-    "introduction" : "I’m an engineering undergraduate student keen on growing my skillset to provide a helping hand to projects that benefit our day to day lives",
-    "bio_main" : "Hey 👋    My name is Alex Lassooij, I'm an Electrical Engineering student at UBC. Since being introduced to programming as a freshman, I’ve expanded my knowledge and skillset through university courses, bootcamps, hackathons and various personal projects. Throughout my short yet continuing journey, I’ve been driven my passion of using software to provide creative, efficient solutions that may benefit the lives of many others.",
-    "bio_experience" : "As of today, I’ve been involved with multiple student engineering teams and am interning as a Software Engineer at medical device company Kardium Inc. Some of the technologies I’ve worked with include : ",
+    "introduction" : "I’m an Electrical Engineering and Data Science student at UBC with a passion for continuous learning, software development, machine learning and technological applications in healthcare",
+    "bio_main" : "Hey 👋    My name is Alex Lassooij, I'm an Electrical Engineering major with a minor in Data Science at UBC. Since being introduced to programming as a freshman, I’ve expanded my knowledge and skillset through internships, coursework, bootcamps, hackathons and various personal projects. Throughout my short yet continuing journey, I’ve been driven by my passion for using software technologies to provide creative, efficient solutions that have a positive impact on people's lives.",
+    "bio_experience" : "As of today, I’ve completed internships at medical device company Kardium Inc. and the Civil Engineering Department at UBC. In addition, I've been involved with multiple student engineering teams, completed projects in web / mobile development, real-time systems, game development and am expanding my knowledge in the area of machine learning. Some of the technologies I’ve worked with include : ",
     "technologies" : [
         {
             "name" : "Java",
@@ -16,8 +16,12 @@
             "icon" : "netcore"
         },
         {
-            "name" : "C#",
-            "icon" : "csharp"
+            "name" : "C, C++, C#",
+            "icon" : "ccc",
+            "customSize" : {
+                "width": "40px", 
+                "height": "40px"
+            }
         },
         {
             "name" : "MongoDB",
@@ -34,16 +38,47 @@
         {
             "name" : "JS (ES6) + HTML5 + CSS3",
             "icon" : "webdev",
-            "resize" : "yes"
+            "customSize" : {
+                "width": "80px", 
+                "height": "30px"
+            }
+        },
+        { 
+            "name" : "MySql",
+            "icon" : "mysql"
+        },
+        {
+            "name" : "Pandas",
+            "icon" : "pandas"
+        },
+        {
+            "name" : "sklearn",
+            "icon" : "sklearn",
+            "customSize" : {
+                "width": "50px", 
+                "height": "30px"
+            }
+        },
+        {
+            "name" : "R",
+            "icon" : "R"
         }
     ],
     "experience" : [
+        {
+            "title": "UBC Civil Engineering", 
+            "position" : "Software Engineer",
+            "date": "May 2023 - Aug 2023", 
+            "description": "The Department of Civil Engineering at UBC is a global leader in its area, and is home to the Smart Structures Group which focuses on advanced contruction technologies.",
+            "contribution": "My work focused on optimizing a program that analyses and simulates the physical properties and performance of any structure under a certain load. I managed to add useful GUI features and shortened simulation times with parallel processing, which involved working with C++, Qt GUI, advanced mathematical packages such as Armadillo and managing local data with SQLite", 
+            "icon" : "images/ubccivil.png"            
+        },
          {
             "title": "Kardium Inc.", 
-            "position" : "Medical Device Software Co-op",
+            "position" : "Medical Software Engineer",
             "date": "May 2022 - Dec 2022", 
             "description": "Kardium Inc. is a medical device company based in Burnaby, BC that has developed the Globe Pulsed Field System, an advanced technology to treat atrial fibrillation.",
-            "contribution": "Since starting at Kardium in May, my work has focused on improving a tool that enables Analytics and Testing teams to analyze medical procedure logs. This has involved writing thorough specifications, requirements and tests to implement updates to components, as well as consulting users of the tool to handle feedback and additional user stories.", 
+            "contribution": "Since starting at Kardium in May, my work has focused on improving an procedure data management tool, breaking it off from the company's existing monolith architecture and making it available as a microservice. This involved formulating thorough specifications, requirements and tests to implement updates and ensure the tool's integration was maintained. Additionally, I consulted users of the tool to gather feedback, fix bugs and generate and carry out new user stories. Technologies I used were Java, JavaFX, Python Scripting with SCons, Batch scripts, TeamCity, ownCloud.", 
             "icon" : "images/kardium_logo.png"            
         },
         {
@@ -74,6 +109,14 @@
         }
     ],
     "projects" : [
+        {
+            "title": "X-Ray Image Classifier", 
+            "cover": "images/X_Ray_1.png",
+            "prim_img": "images/X_Ray_1.png", 
+            "description": "Using in-class knowledge from CPEN355 and CPSC330, self-teaching and independent review of academic papers, I constructed a convolutional neural network with PyTorch. By relying on intuition and common guidelines for design-decisions and hyperparameter tuning with 5-fold cross validation, I achieved an accuracy of 98% for three-way classification (Covid-19, Normal, Viral Pneumonia) on an X-Ray image dataset from Kaggle", 
+            "sup_img" : "images/X_Ray_2.png" ,
+            "link": "https://github.com/AlexLassooij/CNN_XRay_Classifier.git#readme"                     
+        },
         {
             "title": "dealbreaker", 
             "cover": "images/dealbreaker1.png",
