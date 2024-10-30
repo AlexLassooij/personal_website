@@ -15,7 +15,7 @@ const Footer = () => {
 
             {/* <div className='bio-header'> */}
                 <h3 className='built-message'>Designed & Built by Alex Lassooij</h3> 
-                <p className='updated-message'>Last Updated : Nov 8th, 2023</p> 
+                <p className='updated-message'>Last Updated : Oct 25th, 2024</p> 
 
                 <Link to="landing-container" smooth={true} duration={1000} className="footer-scroll">
                     <p>Back To Top</p>

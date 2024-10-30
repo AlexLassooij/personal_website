@@ -15,7 +15,7 @@ const Bio = () => {
     const technologiesComponents = technologies.map((technology) => {
         return(
             <div className='technology-item'>
-                <img className={'technology-icon'}/*className={technology.resize ? 'technology-icon resized' : 'technology-icon'}*/ style={technology.customSize} src={process.env.PUBLIC_URL + '/images/' + technology.icon + '.png'} alt='technology-icon'/>
+                <img className={'technology-icon'} style={technology.customSize} src={process.env.PUBLIC_URL + '/images/' + technology.icon + '.png'} alt='technology-icon'/>
                 <h5 className='technology-name'>
                     {technology.name}
                 </h5>
@@ -26,7 +26,7 @@ const Bio = () => {
     return(
         <div id='bio-container'> 
             {/* <div className='bio-header'> */}
-                <h1>About Me</h1> 
+                <h1 id="about-me">About Me</h1> 
             {/* </div>  */}
             <div className='bio-content text-pad'>
                 <img className="bio-picture" src={process.env.PUBLIC_URL + '/images/profile1:1.png'} alt='profile'/> 

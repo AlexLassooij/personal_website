@@ -45,7 +45,7 @@ const Landing = () => {
                             <p className='intro'>
                                 {introduction}
                             </p>
-                                <Link to="bio-container" smooth={true} duration={1000} className="section-link">
+                                <Link to="about-me" offset={-50} smooth={true} duration={1000} id="slide-button-link">
                                     <div className='slide-button-container'>
                                         <i className='slide-button-icon'></i>
                                         <i className='slide-button-icon animated'></i>
@@ -54,7 +54,7 @@ const Landing = () => {
                         </div>  
                         <div className="social-links">
                             <div className='social-link-button-container'>
-                                <a href="https://drive.google.com/file/d/12LoMexiV7vs4lwSZSiMrPnUdYi4a7cG9/view?usp=sharing" target="_blank" rel="noreferrer">
+                                <a href="https://drive.google.com/file/d/1jkqEiOSmljTNOBrfsYLS5hWMjhkohtzB/view?usp=sharing" target="_blank" rel="noreferrer">
                                 <button className='social-link-button file'>
                                 <FontAwesomeIcon className='fa-btn file' icon={faFile} />                        
                                 </button>

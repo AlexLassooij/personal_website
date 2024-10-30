@@ -21,7 +21,7 @@ function Navbar() {
             setIsShown(true);
         }}
         onMouseLeave={() => setIsShown(false)}
-        className={scrollPosition > 700 && !isShown ? 'navbar-container contracted' : 'navbar-container'}>
+        className={scrollPosition > 700 && !isShown ? 'navbar-container collapsed' : 'navbar-container'}>
         {scrollPosition > 700 && !isShown ?  
         <FontAwesomeIcon className='navbar-bars' icon={faBars} color={'rgba(33, 33, 33, 1.0)'}/>                          
         :

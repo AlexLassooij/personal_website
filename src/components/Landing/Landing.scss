@@ -239,14 +239,22 @@
     }
 }
 
-.section-link {
+#slide-button-link {
     align-self: center;
 }
-.section-link:hover{
+#slide-button-link:hover{
     cursor: pointer;
 }
 
 @media screen and (max-width: AppStyles.$small-screen-size) {
+    #slide-button-link  {
+        visibility: hidden;
+    }
+   
+    .animated {
+        animation: unset;
+    }
+
     #landing-container {
         min-height: unset;
     }
