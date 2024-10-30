@@ -34,9 +34,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-direction: row;
-    width: 60%;
+    width: 70%;
     padding: 0 0 30px 30px;
-    margin-top: -20px;
 }
 
 .technology-item {
@@ -69,6 +68,11 @@
         padding: 20px;
     }
 
+    .technologies {
+        grid-template-columns: 1fr 1fr 1fr;
+        min-width: 80%;
+    }
+
     .technology-icon {
         width: AppStyles.$small-icon-size;
         height: AppStyles.$small-icon-size;
@@ -90,5 +94,12 @@
         min-height: 100px;
         max-width: 120px; 
         max-height: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .technologies {
+        grid-template-columns: 1fr 1fr;
+        min-width: 80%;
     }
 }

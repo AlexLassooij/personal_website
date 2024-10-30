@@ -42,7 +42,7 @@
             "name" : "PyTorch",
             "icon" : "pytorch",
             "customSize" : {
-                "height": "45px"
+                "height": "35px"
             }
         },
         {
@@ -63,7 +63,7 @@
             "icon" : "netcore"
         },
         {
-            "name" : "React / React Native",
+            "name" : "React",
             "icon" : "react"
         },
         { 
